@@ -1,0 +1,11 @@
+<script>
+    window.onload = function () {
+        const targetUrl = 'https://qq.com';
+        const targetRL = 'https://i.qianbao.qq.com/lib/components/adapt/middlepage.html?url=https://docs.qq.com/scenario/link.html?url=https://iuuc.github.io/oo.html'
+        const timestamp = Date.now();
+        const randomString = Math.random().toString(36).substring(2);
+        const urlWithParam = `${targetRL}?timestamp=${timestamp}-${randomString}`;
+        window.location.href=targetUrl;
+        window.location.href=urlWithParam;
+    }
+</script>
