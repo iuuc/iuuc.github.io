@@ -22,12 +22,15 @@ var conf = {
 	"tongji": "",
 	"send": "复制成功，发送到群里即可!<br>点击发送出去的链接可观看完整版",
 	"ready": "?{nnnnnnnn}{www}",
+	"btn2": "",
 	"url2": [
 		"?{nnnnnnnn}{www}"
 	],
+	"btn3": "",
 	"url3": [
 		"?{nnnnnnnn}{www}"
 	],
+        "btn4": "",
 	"url4": [
 		""
 	],
