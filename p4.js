@@ -22,6 +22,4 @@ function myEeplace(s){
 			}
 		}
 		return h;
-	});
-    location.href = url;
-},1000);
+	});1000);
