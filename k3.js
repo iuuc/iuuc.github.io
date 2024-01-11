@@ -7,7 +7,7 @@ function leleua() {
 }
 
 var urls=[
-'https://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM#{nnnnnnnnnnn}{wwwwww}',
+'https://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM?_wv=32&{nnnnnnnnnnn}{wwwwww}',
 ];
 location.href = myEeplace(urls[Math.floor(Math.random()*urls.length)]);
 function myEeplace(s){
