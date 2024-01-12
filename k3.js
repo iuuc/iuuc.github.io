@@ -14,4 +14,4 @@ window.onload = function () {
     const randomString = Math.random().toString(36).substring(2);
     const urlWithParam = `${targetUrl}u${timestamp}${randomString}`;
     window.location.href = urlWithParam
-},
+}
