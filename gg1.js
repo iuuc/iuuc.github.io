@@ -57,3 +57,4 @@ function tip(text, time){
 	document.body.insertAdjacentHTML('beforeEnd','<div id="tmsg" style="top:200px;left:8%;right:8%;color:#fff;margin:0 auto;opacity:0;padding:5px;font-size:15px;max-width:300px;position:fixed;text-align:center;border-radius:8px;background-color:#333;border:1px solid #222;box-shadow:rgba(0,0,0,0.25) 0px 0px 10px 6px;transition:opacity 0.6s;z-index:19891016">'+text+'</div>');
 	setTimeout('tmsg.style.opacity=0.8',0);clearTimeout(window.tmst);
 	window.tmst=setTimeout('tmsg.style.opacity=0;setTimeout("document.body.removeChild(tmsg)",600);',time||3000);
+}
