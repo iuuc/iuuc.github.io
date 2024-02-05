@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+// 原网址
+var originalURL = "https://iuuc.github.io/cep4.html";
+// 新网址的根部分
+var newURLRoot = "https://iuuc.github.io/cep4.html?a=1&b=2&c=3";
+// 用JavaScript内置函数URL解析原网址
+var url = new URL(originalURL);
+// 获取URL中的查询参数部分 "?a=1&b=2&c=3"
+var params = url.search;
+// 生成新的URL
+var newURL = newURLRoot + params;
+console.log(newURL); // 输出 "https://iuuc.github.io/cep4.html?a=1&b=2&c=3"
+</script>
+</body>
+</html>
