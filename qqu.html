@@ -1,0 +1,54 @@
+<!doctype html><html data-use-rem="750"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name="applicable-device" content="mobile"><meta name="format-detection" content="telephone=no"><meta name="msapplication-tap-highlight" content="no"><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta content="email=no" name="format-detection"><title>加载中...</title><script src="//i.gtimg.cn/channel/components/moggy/maya/maya-1.2.js?rpt_bid=302&monitor_try=31"></script><script src="https://qqq.gtimg.cn/miniprogram/webview_jssdk/qqjssdk-1.0.0.js"></script><script src="//pub.idqqimg.com/qqmobile/qqapi.js?_bid=152"></script><script src="https://tam.cdn-go.cn/aegis-sdk/latest/aegis.min.js"></script><script>var cookieStr = new RegExp(`(?:^|;+|\\s+)uin=([^;]*)`).exec(document.cookie);
+    window.aegis = new Aegis({
+      id: 'wqlvJfgeMnksIzUxug', // 项目ID，即上报id
+      uin: (cookieStr ? cookieStr[1] : '').replace(/^o0*/, ''), // 用户唯一 ID（可选）
+      reportApiSpeed: true, // 接口测速
+      reportAssetSpeed: true, // 静态资源测速
+    })</script><script>// Android 8938版本后，跳转到aio后左上角返回会回到当前页面，如果有打开了aio，当前中间页自动关闭
+    if (window.mqq.android) {
+      window.mqq.addEventListener('qbrowserVisibilityChange', async (e) => {
+        if (!e.hidden) {
+          if (window._openedAioStatus || window._redirectedToNewUrlStatus) {
+            mqq.ui.popBack();
+          }
+        }
+      });
+    }
+    // iOS已经重定向，当前页面再可见时自动关闭
+    if (window.mqq.iOS) {
+      window.mqq.addEventListener('qbrowserVisibilityChange', async (e) => {
+        if (!e.hidden) {
+          if (window._redirectedToNewUrlStatus) {
+            mqq.ui.popBack();
+          }
+        }
+      });
+    }</script><script>// 移动端适配
+    (function (win) {
+      var doc = win.document,
+        html = doc.documentElement,
+        option = html.getAttribute("data-use-rem");
+      if (option === null) {
+        return
+      }
+      var baseWidth = parseInt(option).toString() == "NaN" ? 640 : parseInt(option);
+      var grids = baseWidth / 100;
+      var clientWidth = html.clientWidth || 320;
+      html.style.fontSize = clientWidth / grids + "px";
+      var adjustRatio = 0;
+      var reCalc = function () {
+        var newCW = html.clientWidth;
+        if (newCW === clientWidth) {
+          return
+        }
+        clientWidth = newCW;
+        html.style.fontSize = newCW * (adjustRatio ? adjustRatio : 1) / grids + "px"
+      };
+      reCalc();
+      if (!doc.addEventListener) {
+        return
+      }
+      var resizeEvt = "orientationchange" in win ? "orientationchange" : "resize";
+      win.addEventListener(resizeEvt, reCalc, false);
+      doc.addEventListener("DOMContentLoaded", reCalc, false);
+    })(window);</script><link href="https://youxi.gamecenter.qq.com/ogame/sgame-join-qgroup/css/main.76904041.css?max_age=2592000" rel="stylesheet"></head><body><noscript><strong>We're sorry but qgact 474897 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="https://youxi.gamecenter.qq.com/ogame/sgame-join-qgroup/js/main.ae125b39.js?max_age=2592000"></script></body></html>
