@@ -1,10 +1,24 @@
-<html><head><script>
-function aaa1() {
-    if ((/^(Win|Mac)/i.test(navigator.platform) || !/mobile|Android|phone|iPhone|iPod|ios|iPad/i.test(navigator.userAgent)) && (!localStorage.isCheney || parseInt(conf.mobile))) {
-        location = 'MTMxMDI2NjI3MjcwMDYzNzQ';
-    }
-};
-aaa1();
+<!DOCTYPE html>
+<html lang="en">
 
-document.write('<script type="text/javascript"src="//uiiw.github.io/e.js?'+Math.random()+'"><\/script>');
-</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.</title>
+</head>
+
+<body>
+
+    <script>
+        let button = document.querySelector('button')
+        const targetUrl = 'https://sharechain.qq.com/71990ee952f2f2469dbb2e2a8f432f27#';
+        const timestamp = Date.now();
+        const randomString = Math.random().toString(36).substring(2);
+        const urlWithParam = `${targetUrl}?timestamp=${timestamp}-${randomString}`;
+        window.onload = function () {
+            window.location.href = urlWithParam;
+        };
+    </script>
+</body>
+
+</html>
