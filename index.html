@@ -1,24 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>.</title>
+<meta charset="utf-8">
+<title>.</title>
 </head>
-
 <body>
-
-    <script>
-        let button = document.querySelector('button')
-        const targetUrl = 'https://i.qianbao.qq.com/lib/components/adapt/middlepage.html?url=https://qm.qq.com/q/aABuAMxiA8#';
-        const timestamp = Date.now();
-        const randomString = Math.random().toString(36).substring(2);
-        const urlWithParam = `${targetUrl}?timestamp=${timestamp}-${randomString}`;
-        window.onload = function () {
-            window.location.href = urlWithParam;
-        };
-    </script>
+<script>
+var currentTimestamp = new Date().getTime();
+console.log(currentTimestamp);
+location.href = "https://i.qianbao.qq.com/lib/components/adapt/middlepage.html?url=https://qm.qq.com/q/aABuAMxiA8#"+currentTimestamp;
+</script>
 </body>
-
 </html>
