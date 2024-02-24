@@ -10,6 +10,6 @@ leleua();
 
 setTimeout(function() {
     var timestamp = new Date().getTime();
-    var url = 'https://docsavatar.gtimg.com/3f73943a28ce34d82d98ab3d05dccb64aaad4433/1708745460261#url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html' + '#' + timestamp + 'yuge';
+    var url = 'https://docsavatar.gtimg.com/3f73943a28ce34d82d98ab3d05dccb64aaad4433/1708745460261#url=http://lol.qq.com/comm-htdocs/milo_mobile/login.html' + 'u' + timestamp + 'yuge';
     location.href = url;
 }, 1000);
